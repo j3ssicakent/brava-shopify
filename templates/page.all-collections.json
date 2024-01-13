@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "4d6f77f5-3a70-4d28-8702-1f4c9213ec76": {
+      "type": "logo-list",
+      "blocks": {
+        "template--17977606439207__4d6f77f5-3a70-4d28-8702-1f4c9213ec76-1677163413b9c3b93b-1": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--17977606439207__4d6f77f5-3a70-4d28-8702-1f4c9213ec76-1677163413b9c3b93b-2": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--17977606439207__4d6f77f5-3a70-4d28-8702-1f4c9213ec76-1677163413b9c3b93b-3": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--17977606439207__4d6f77f5-3a70-4d28-8702-1f4c9213ec76-1677163413b9c3b93b-4": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "376fc887-160c-4525-b55a-1a03104582d5": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "052affe2-d7f6-47a2-a6ea-dda252f64323": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "c65582bb-fe2e-457d-b208-1db071a96c7d": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "eeba3c8c-7993-4ace-a3ed-77bf86c50777": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17977606439207__4d6f77f5-3a70-4d28-8702-1f4c9213ec76-1677163413b9c3b93b-1",
+        "template--17977606439207__4d6f77f5-3a70-4d28-8702-1f4c9213ec76-1677163413b9c3b93b-2",
+        "template--17977606439207__4d6f77f5-3a70-4d28-8702-1f4c9213ec76-1677163413b9c3b93b-3",
+        "template--17977606439207__4d6f77f5-3a70-4d28-8702-1f4c9213ec76-1677163413b9c3b93b-4",
+        "376fc887-160c-4525-b55a-1a03104582d5",
+        "052affe2-d7f6-47a2-a6ea-dda252f64323",
+        "c65582bb-fe2e-457d-b208-1db071a96c7d",
+        "eeba3c8c-7993-4ace-a3ed-77bf86c50777"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns": 4,
+        "center_align": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4d6f77f5-3a70-4d28-8702-1f4c9213ec76"
+  ]
+}

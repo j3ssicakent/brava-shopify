@@ -1,0 +1,67 @@
+{
+  "type": "header",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "56d4ccfa-a515-4c26-9e64-c26ec5eea8d2": {
+          "type": "signup",
+          "settings": {
+            "column_size": "medium",
+            "title": "get on the list",
+            "text": "<p>exclusive discounts \/ giveaways \/  premier access<\/p>"
+          }
+        },
+        "00a364e5-af4e-4073-871b-4d533bd4da06": {
+          "type": "menu",
+          "settings": {
+            "column_size": "medium",
+            "title": "shop",
+            "menu": "shop-footer"
+          }
+        },
+        "a09a8a35-bedc-4119-aa04-3ce886faba9d": {
+          "type": "menu",
+          "settings": {
+            "column_size": "medium",
+            "title": "company",
+            "menu": "company-footer"
+          }
+        },
+        "401e3886-6cb7-4742-8fda-45a0d97a26a3": {
+          "type": "menu",
+          "settings": {
+            "column_size": "medium",
+            "title": "help",
+            "menu": "help-footer"
+          }
+        },
+        "4c77b7f6-555e-4dd1-bf98-59bb265600f5": {
+          "type": "social",
+          "settings": {
+            "column_size": "small",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "56d4ccfa-a515-4c26-9e64-c26ec5eea8d2",
+        "00a364e5-af4e-4073-871b-4d533bd4da06",
+        "a09a8a35-bedc-4119-aa04-3ce886faba9d",
+        "401e3886-6cb7-4742-8fda-45a0d97a26a3",
+        "4c77b7f6-555e-4dd1-bf98-59bb265600f5"
+      ],
+      "settings": {
+        "full_width": true,
+        "copyright_text": "All rights reserved.",
+        "show_language_switcher": false,
+        "show_currency_switcher": true,
+        "show_payment_icons": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

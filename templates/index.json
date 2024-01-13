@@ -1,0 +1,582 @@
+{
+  "sections": {
+    "5438ef38-e858-401c-80d3-f84b7d8ce716": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18112915210535__5438ef38-e858-401c-80d3-f84b7d8ce716-167880301102fecbc5-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00058_CAROUSEL_1.jpg",
+            "image_width": 100,
+            "image_alignment": "right",
+            "image_detail": false,
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "Heritage Hoodies",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-left",
+            "text_alignment": "left",
+            "content_size": "small",
+            "overlay": true,
+            "slide_color": "{{ shop.brand.colors.primary[0].background }}",
+            "subheader_color": "{{ shop.brand.colors.secondary[0].foreground }}",
+            "header_color": "{{ shop.brand.colors.secondary[0].foreground }}",
+            "description_color": "{{ shop.brand.colors.secondary[0].foreground }}",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25,
+            "overlay_gradient": "",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/collections\/heritage-hoodies",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": true
+          }
+        },
+        "39f83660-5c55-4adb-a099-d750edc5af44": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC09802_carousel.jpg",
+            "image_width": 100,
+            "image_alignment": "right",
+            "image_detail": false,
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "heritage tees",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-right",
+            "text_alignment": "right",
+            "content_size": "small",
+            "overlay": true,
+            "slide_color": "#34444e",
+            "subheader_color": "#ffffff",
+            "header_color": "#ffffff",
+            "description_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25,
+            "overlay_gradient": "",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/collections\/heritage-tees",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "e93a01b7-91cb-49fc-8302-1249dbd3bce9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC09179_CAROUSEL_1.jpg",
+            "image_width": 100,
+            "image_alignment": "left",
+            "image_detail": false,
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "premium tees",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-left",
+            "text_alignment": "left",
+            "content_size": "small",
+            "overlay": true,
+            "slide_color": "#34444e",
+            "subheader_color": "#ffffff",
+            "header_color": "#ffffff",
+            "description_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25,
+            "overlay_gradient": "",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/collections\/premium-tees",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "abe12ef9-096e-4ada-a004-ebfbdf1bffa6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00198_CAROUSEL_1.jpg",
+            "image_width": 100,
+            "image_alignment": "left",
+            "image_detail": false,
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "premium zip hoodies",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "large",
+            "content_position": "middle-left",
+            "text_alignment": "left",
+            "content_size": "small",
+            "overlay": true,
+            "slide_color": "#34444e",
+            "subheader_color": "#ffffff",
+            "header_color": "#ffffff",
+            "description_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25,
+            "overlay_gradient": "",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/collections\/premium-zip-hoodies",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "611c5bb7-9b8f-49b5-b852-f97026200b46": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC09618_CAROUSEL_1.jpg",
+            "image_width": 100,
+            "image_alignment": "left",
+            "image_detail": false,
+            "slide_link": "",
+            "video_background": false,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "subheading": "",
+            "heading": "heritage women's tanks",
+            "heading_size": "h1-xlarge",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-right",
+            "text_alignment": "right",
+            "content_size": "small",
+            "overlay": true,
+            "slide_color": "{{ shop.brand.colors.secondary[0].background }}",
+            "subheader_color": "{{ shop.brand.colors.secondary[0].foreground }}",
+            "header_color": "{{ shop.brand.colors.secondary[0].foreground }}",
+            "description_color": "{{ shop.brand.colors.secondary[0].foreground }}",
+            "overlay_color": "#000000",
+            "overlay_opacity": 25,
+            "overlay_gradient": "",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/collections\/womens-tanks",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18112915210535__5438ef38-e858-401c-80d3-f84b7d8ce716-167880301102fecbc5-0",
+        "39f83660-5c55-4adb-a099-d750edc5af44",
+        "e93a01b7-91cb-49fc-8302-1249dbd3bce9",
+        "abe12ef9-096e-4ada-a004-ebfbdf1bffa6",
+        "611c5bb7-9b8f-49b5-b852-f97026200b46"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 7,
+        "transition": "swipe",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "83bde3d3-4aa8-4935-8dc1-a91dc41a4bdb": {
+      "type": "featured-brands",
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "mobile_swipe": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "cf7a5795-07df-4ea1-801d-cefed4da116c": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "New Arrivals",
+        "heading_left": false,
+        "description": "<p><strong>Elevated style you can take with you into the 3D.<\/strong><\/p>",
+        "full_width": false,
+        "collection_list": [
+          "framed-posters",
+          "apparel",
+          "phone-cases"
+        ],
+        "image_ratio": "square",
+        "layout": "grid",
+        "style": "style2",
+        "columns_desktop": 3,
+        "columns_mobile": "1",
+        "show_progress_bar": false,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 15,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "3bf8f887-9079-4bb6-9826-21b486e1d1b8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18112915210535__3bf8f887-9079-4bb6-9826-21b486e1d1b8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "new arrivals",
+            "size": "h2"
+          }
+        },
+        "template--18112915210535__3bf8f887-9079-4bb6-9826-21b486e1d1b8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Elevated style you can take with you into the 3D.<\/strong><\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--18112915210535__3bf8f887-9079-4bb6-9826-21b486e1d1b8-heading-1",
+        "template--18112915210535__3bf8f887-9079-4bb6-9826-21b486e1d1b8-text-1"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "633eb0b0-93df-4ae9-bd8f-674cdabeb045": {
+      "type": "gallery",
+      "blocks": {
+        "template--18112915210535__633eb0b0-93df-4ae9-bd8f-674cdabeb045-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CRYPTORAGGIES_1_EABEDBcopia2.jpg",
+            "subheading": "",
+            "caption": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/exclusives"
+          }
+        },
+        "template--18112915210535__633eb0b0-93df-4ae9-bd8f-674cdabeb045-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HOSKY_1_003087copia2_2.jpg",
+            "subheading": "",
+            "caption": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/hosky"
+          }
+        },
+        "template--18112915210535__633eb0b0-93df-4ae9-bd8f-674cdabeb045-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VB_2_D29F13copia2.jpg",
+            "subheading": "",
+            "caption": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/exclusives"
+          }
+        }
+      },
+      "block_order": [
+        "template--18112915210535__633eb0b0-93df-4ae9-bd8f-674cdabeb045-image-1",
+        "template--18112915210535__633eb0b0-93df-4ae9-bd8f-674cdabeb045-image-2",
+        "template--18112915210535__633eb0b0-93df-4ae9-bd8f-674cdabeb045-image-3"
+      ],
+      "custom_css": [
+        ".gallery__item figure {border-radius: 8px;}"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "section_width": "grid",
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "large",
+        "heading_size": "h2",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "67bf3722-38a8-4a95-ab2c-469ddeb0cd74": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18112915210535__67bf3722-38a8-4a95-ab2c-469ddeb0cd74-1680617903722e5e26-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Our motto is"
+          }
+        },
+        "template--18112915210535__67bf3722-38a8-4a95-ab2c-469ddeb0cd74-1680617903722e5e26-1": {
+          "type": "heading",
+          "settings": {
+            "text": "NFT streetstyle",
+            "heading_size": "h1-xlarge"
+          }
+        },
+        "template--18112915210535__67bf3722-38a8-4a95-ab2c-469ddeb0cd74-1680617903722e5e26-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>celebrating the iconic designs behind top NFT brands<\/p>",
+            "description_size": "medium"
+          }
+        },
+        "template--18112915210535__67bf3722-38a8-4a95-ab2c-469ddeb0cd74-1680617903722e5e26-3": {
+          "type": "button",
+          "settings": {
+            "button_text": "shop now",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18112915210535__67bf3722-38a8-4a95-ab2c-469ddeb0cd74-1680617903722e5e26-0",
+        "template--18112915210535__67bf3722-38a8-4a95-ab2c-469ddeb0cd74-1680617903722e5e26-1",
+        "template--18112915210535__67bf3722-38a8-4a95-ab2c-469ddeb0cd74-1680617903722e5e26-2",
+        "template--18112915210535__67bf3722-38a8-4a95-ab2c-469ddeb0cd74-1680617903722e5e26-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/home_page_banner_2_1d428404-a3ff-46da-9fe8-012d4747b114.png",
+        "image_parallax": true,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-500",
+        "content_width": "medium",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "overlay_opacity": 35,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "a6b32e0e-ccee-4da8-ab5d-2ed2b1ae98ee": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "5794cf6e-b351-472e-8c82-f4471e931e96": {
+          "type": "heading",
+          "settings": {
+            "text": "NFT streetstyle",
+            "heading_size": "h1-xlarge"
+          }
+        },
+        "7206414c-cf6c-46ee-ac05-e41f9779cfca": {
+          "type": "text",
+          "settings": {
+            "text": "<p>celebrating the iconic designs behind top NFT brands<\/p>",
+            "description_size": "medium"
+          }
+        },
+        "8951eb8f-1a22-4c63-adda-617d76a41eb5": {
+          "type": "button",
+          "settings": {
+            "button_text": "shop now",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "5794cf6e-b351-472e-8c82-f4471e931e96",
+        "7206414c-cf6c-46ee-ac05-e41f9779cfca",
+        "8951eb8f-1a22-4c63-adda-617d76a41eb5"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/brava_-_homepage_stretch_banner_1440_x_450px.png",
+        "image_parallax": true,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-500",
+        "content_width": "medium",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "overlay_opacity": 35,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "4c8006f6-7b8c-4746-a05b-cd021015cb25": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "PREMIUM GEAR",
+        "heading_left": false,
+        "description": "<p>Our favorite designs in an elevated package. Streetstyle meets soft and cozy.<\/p>",
+        "full_width": false,
+        "collection": "exclusives",
+        "display_type": "grid",
+        "product_limit": 6,
+        "columns_desktop": 3,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "current_product": ""
+      }
+    },
+    "fb4b44a3-2ff9-438b-81de-0613795f2e76": {
+      "type": "gallery",
+      "blocks": {
+        "template--18112915210535__fb4b44a3-2ff9-438b-81de-0613795f2e76-1680551018b3086ca3-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f5ef8fa1-2fca-4412-a2b6-69b3541098d7_6cef1d3b-c3a8-4367-bdef-2e4f4898f8bb.jpg",
+            "subheading": "",
+            "caption": "<p><\/p>",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify:\/\/pages\/brands"
+          }
+        },
+        "template--18112915210535__fb4b44a3-2ff9-438b-81de-0613795f2e76-1680551018b3086ca3-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brava_bravaland.com_nft_merch_retailer.png",
+            "subheading": "",
+            "caption": "<p><\/p>",
+            "title": "taking your fave NFT brands into IRL",
+            "text": "bragging rights just got easier",
+            "link_label": "our brands",
+            "link": "shopify:\/\/pages\/brands",
+            "use_text_button": false,
+            "block_link": "shopify:\/\/pages\/brands"
+          }
+        },
+        "template--18112915210535__fb4b44a3-2ff9-438b-81de-0613795f2e76-1680551018b3086ca3-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HOSKY_1_4copia2_b4a6ff4c-857c-4b25-9199-27735313098f.jpg",
+            "subheading": "",
+            "caption": "<p><\/p>",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "shopify:\/\/pages\/brands"
+          }
+        }
+      },
+      "block_order": [
+        "template--18112915210535__fb4b44a3-2ff9-438b-81de-0613795f2e76-1680551018b3086ca3-0",
+        "template--18112915210535__fb4b44a3-2ff9-438b-81de-0613795f2e76-1680551018b3086ca3-1",
+        "template--18112915210535__fb4b44a3-2ff9-438b-81de-0613795f2e76-1680551018b3086ca3-2"
+      ],
+      "custom_css": [
+        "h4,p {color: #212122;}"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "section_width": "full-width-row-full",
+        "mobile_swipe": true,
+        "image_ratio": "portrait",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "column_spacing": "none",
+        "heading_size": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 25,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "b8a89e6d-6ed6-43d6-8f9f-092a827c49eb": {
+      "type": "collection-list",
+      "settings": {
+        "heading": "featured brands",
+        "heading_left": false,
+        "description": "<p>Our NFT brands feature their own unique aesthetic that’s attracted a cult like following. The adventure to wear your happy begins here.<\/p>",
+        "full_width": false,
+        "collection_list": [
+          "hosky",
+          "cryptoraggies",
+          "bitfins",
+          "pendulum",
+          "future-fest",
+          "danketsu",
+          "disco-solaris",
+          "vudu-brigada",
+          "cardano-stonerz-club"
+        ],
+        "image_ratio": "square",
+        "layout": "carousel",
+        "style": "style2",
+        "columns_desktop": 3,
+        "columns_mobile": "1",
+        "show_progress_bar": false,
+        "mobile_swipe": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 25,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "33f478ee-2f39-46ee-b678-f4db434ff3f3": {
+      "type": "email-signup",
+      "settings": {
+        "heading": "GET ON THE LIST",
+        "description": "<p>Your ticket to exclusive discounts, premium raffles, and premier access to our product & event launches, reserved exclusively for our VIPs.<\/p>",
+        "color_bg": "#ffffff",
+        "color_text": "{{ shop.brand.colors.secondary[0].background }}",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "5438ef38-e858-401c-80d3-f84b7d8ce716",
+    "83bde3d3-4aa8-4935-8dc1-a91dc41a4bdb",
+    "cf7a5795-07df-4ea1-801d-cefed4da116c",
+    "3bf8f887-9079-4bb6-9826-21b486e1d1b8",
+    "633eb0b0-93df-4ae9-bd8f-674cdabeb045",
+    "67bf3722-38a8-4a95-ab2c-469ddeb0cd74",
+    "a6b32e0e-ccee-4da8-ab5d-2ed2b1ae98ee",
+    "4c8006f6-7b8c-4746-a05b-cd021015cb25",
+    "fb4b44a3-2ff9-438b-81de-0613795f2e76",
+    "b8a89e6d-6ed6-43d6-8f9f-092a827c49eb",
+    "33f478ee-2f39-46ee-b678-f4db434ff3f3"
+  ]
+}

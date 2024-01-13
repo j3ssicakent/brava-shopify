@@ -1,0 +1,128 @@
+.featured-brands {
+    overflow: hidden;
+}
+
+.featured-brands .row {
+    overflow: hidden;
+}
+
+.featured-brand__inner {
+    margin-left: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+    .featured-brands .carousel__slide {
+        width: calc(90vw - 15px); 
+    } 
+}
+.featured-brands .products.row {
+    padding: 0; 
+}
+@media only screen and (max-width: 767px) {
+    .featured-brands.swipe-on-mobile .featured-brands__inner.display-type--grid .products.row {
+        margin: 0 -15px;
+        width: calc(100% + 30px);
+        padding: 0 11px;
+        display: grid;
+        grid-gap: 0;
+        grid-auto-flow: column;
+        grid-auto-columns: minmax(50%, 1fr);
+        overflow-x: auto;
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none; 
+    }
+    .featured-brands.swipe-on-mobile .featured-brands__inner.display-type--grid .products.row::-webkit-scrollbar {
+        display: none; 
+    }
+    .featured-brands.swipe-on-mobile .featured-brands__inner.display-type--grid .products.row .columns {
+        flex: 0 0 100%;
+        max-width: 100%; 
+    } 
+}
+.featured-collection .text-center .button {
+    margin-top: 10px; 
+}
+  
+
+.brand-card {
+    position: relative;
+    min-width: 200px;
+    max-width: 330px;
+    height: 150px;
+    margin-left: 60px;
+    background: var(--color-body);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.brand-card .cta {
+    float: right;
+    color: #fff;
+    position: absolute;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+
+
+.featured-brand-img {
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    height: 150px;
+    left: -35px;
+}
+
+.brand-name {
+    text-align: right;
+    margin: 1.5rem 0.5rem 0 6rem;
+    color: #fff;
+}
+
+.brands.carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    min-width: 100%;
+    padding: 0;
+}
+
+.brands.carousel .product-card {
+    flex-shrink: 0; 
+}
+.brands.carousel .carousel__slide {
+    width: 100%; 
+}
+.no-js .brands.carousel {
+    overflow: scroll; 
+}
+.brands.carousel.flickity-enabled {
+    overflow: visible;
+}
+.featured-brands .flickity-slider {
+    animation: marquee-left 15s linear infinite; 
+}
+
+@media only screen and (max-width: 767px) {
+    .featured-brands .flickity-slider {
+        animation: marquee-left 5s linear infinite; 
+    }
+}
+.brands.carousel.flickity-enabled .flickity-viewport {
+    overflow: visible; 
+    cursor: pointer;
+}
+
+@keyframes marquee-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    } 
+}

@@ -1,0 +1,71 @@
+<div class="row full-width-row no-padding">
+    <div class="collection-banner--image">
+        {%- liquid
+            assign banner = page.metafields.custom.banner.value
+            assign master_width = banner.src.width | append: 'x' | append: banner.src.height
+            assign width = '375x'
+        -%}
+        {%- if banner != blank -%}
+            {%- render 'responsive-image', image: banner | image_url, sizes: '0x350,0x700' -%}
+        {%- endif -%}
+    </div>
+</div>
+<div class="section-spacing">
+	<div class="row">
+		<div class="small-12 columns">
+			<div class="blog-post-detail">
+				{% comment %} <div class="post-title">
+					<h1>{{ page.title }}</h1>
+				</div> {% endcomment %}
+                <div class="page-content-width rte brand-description">
+					{{ page.content }}
+				</div>
+                <div class="brands-container">
+                    <div class="row grid">
+                        {% comment %} {% assign sortedBrands = shop.metaobjects.brands.values | sort: "brand_order" %} {% endcomment %}
+                        {% for brand in shop.metaobjects.brands.values %}
+                            {%- if brand and brand.profile.value != blank -%}
+                                <brand-card class="small-12 medium-4 large-3 columns">
+                                    <div class="brand-container">
+                                        {%- liquid
+                                            assign image = brand.profile.value
+                                            assign class = 'featured-brand-img'
+                                            assign master_width = image.src.width | append: 'x' | append: image.src.height
+                                            assign width = '375x'
+                                        -%}
+                                        {%- if image != blank -%}
+                                            {%- render 'responsive-image', image: image | image_url, sizes: width, class: class -%}
+                                        {%- endif -%}
+                                        <h4 class="brand-name">
+                                            {{ brand.name.value }}
+                                        </h4>
+                                        {% if brand.twitter.value != blank or brand.website.value != blank %}
+                                            <div class="brand-links">
+                                                {% if brand.twitter.value != blank %}
+                                                    <a href="{{ brand.twitter.value }}" class="social twitter" target="_blank" rel="noreferrer" title="Twitter">
+                                                        {% render 'svg-icons' with 'twitter' %} 
+                                                    </a>
+                                                {% endif %}
+                                                {% if brand.twitter.value != blank %}
+                                                    <a href="{{ brand.website.value }}" class="social website" target="_blank" rel="noreferrer" title="JPG Store">
+                                                        {% render 'svg-icons' with 'globe' %} 
+                                                    </a>
+                                                {% endif %}
+                                            </div>
+                                        {% endif %}
+                                        <p class="brand-bio">
+                                            {{ brand.bio.value.children[0].children[0].value }}
+                                        </p>
+                                    </div>
+                                    <a class="button outline" href="{{ brand.brand_collection.value.url }}" role="button" title="Shop the collection"><span>Shop the collection</span></a>
+                                </brand-card>
+                            {% endif%}
+                                  
+                        {% endfor %}
+                    </div>
+                </div>
+			</div>
+		</div>
+	</div>
+</div>
+{{ 'brand-page.css' | asset_url | stylesheet_tag }}

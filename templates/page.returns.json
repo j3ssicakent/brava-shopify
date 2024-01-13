@@ -1,0 +1,151 @@
+{
+  "sections": {
+    "166161901464a25e50": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "166161901437c6bc67-1": {
+          "type": "heading",
+          "settings": {
+            "text": "returns \/ exchanges",
+            "heading_size": "h1-xlarge"
+          }
+        }
+      },
+      "block_order": [
+        "166161901437c6bc67-1"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/returns-exchanges.jpg",
+        "image_parallax": true,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-350",
+        "content_width": "medium",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "overlay_opacity": 25,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "dabb125b-c46f-4e06-87d6-5d5792cf3369": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18112915374375__dabb125b-c46f-4e06-87d6-5d5792cf3369-1684170311b0911365-2": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>Oh no! Something not quite right with your new gear!?<\/h6>",
+            "size": "text-size-large"
+          }
+        },
+        "53dea7c0-81e7-409c-a4af-d2ad2986034f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No problem! These things happen and we bet we’ll do better next time.<\/p>",
+            "size": "text-size-large"
+          }
+        },
+        "7fdccddd-983b-4b29-bcff-10e1f761cd73": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Let’s get you a refund back. Better yet - let’s get you something different!<\/p>",
+            "size": "text-size-large"
+          }
+        },
+        "aec8d744-307a-4dd9-9ccc-7d0da979fd5f": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Simply request a prepaid return label and send it back. You can either wait for your refund to process or submit a new order while you wait. <\/strong>Easy squeezy!<\/p><p><br\/>At this time, we do not offer exchanges.<\/p>",
+            "size": "text-size-large"
+          }
+        }
+      },
+      "block_order": [
+        "template--18112915374375__dabb125b-c46f-4e06-87d6-5d5792cf3369-1684170311b0911365-2",
+        "53dea7c0-81e7-409c-a4af-d2ad2986034f",
+        "7fdccddd-983b-4b29-bcff-10e1f761cd73",
+        "aec8d744-307a-4dd9-9ccc-7d0da979fd5f"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "4896a34d-7fef-44ef-a30a-73625d646d87": {
+      "type": "rich-text",
+      "blocks": {
+        "fdc10973-fb14-41a4-a4dd-2567d08307df": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Return Policy<\/strong><\/h3>",
+            "size": "text-size-large"
+          }
+        },
+        "30ab381a-9511-4eec-8d9b-d0798cd9609d": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Only unworn and unwashed clothing and accessories returned in their original packaging are eligible for our return policy. Home products must be in brand new condition and shipped back in their original packaging.<\/em><\/p>",
+            "size": "text-size-large"
+          }
+        },
+        "c0a45e18-a39b-4952-b9a8-9b370df410dc": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>If sending within North and South America:<\/strong> 14 days from the date your item(s) has been delivered.<br\/><strong>If sending within Europe:<\/strong> 21 days from the date your item(s) has been delivered.<br\/><strong>If sending from Rest of World:<\/strong> 31 days from the date your item(s) has been delivered.<\/p>",
+            "size": "text-size-large"
+          }
+        },
+        "ff09c7a7-c761-42f3-aa3a-3bd268d996d8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Need support? Contact us down below or directly at <a href=\"mailto:info@bravaland.com\"><span style=\"text-decoration:underline\">info@bravaland.com<\/span><\/a> for assistance. We’ll get your note either way!<\/p>",
+            "size": "text-size-large"
+          }
+        }
+      },
+      "block_order": [
+        "fdc10973-fb14-41a4-a4dd-2567d08307df",
+        "30ab381a-9511-4eec-8d9b-d0798cd9609d",
+        "c0a45e18-a39b-4952-b9a8-9b370df410dc",
+        "ff09c7a7-c761-42f3-aa3a-3bd268d996d8"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1a6daedf-7cc5-4243-9549-314965390635": {
+      "type": "contact-form",
+      "custom_css": [
+        "textarea {border-radius: 16px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "show_phone_number": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "166161901464a25e50",
+    "dabb125b-c46f-4e06-87d6-5d5792cf3369",
+    "4896a34d-7fef-44ef-a30a-73625d646d87",
+    "1a6daedf-7cc5-4243-9549-314965390635"
+  ]
+}

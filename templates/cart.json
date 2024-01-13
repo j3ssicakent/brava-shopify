@@ -1,0 +1,46 @@
+{
+  "sections": {
+    "main-cart": {
+      "type": "main-cart",
+      "settings": {
+        "cart_notes_enable": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "Frequently Bought Together",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "5abbd081-3c9e-4fba-82a3-ec9cfdfa41cb": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "add to your bag",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "collection": "we-think-you-may-like",
+        "display_type": "carousel",
+        "product_limit": 8,
+        "columns_desktop": 4,
+        "show_view_all": false,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main-cart",
+    "product-recommendations",
+    "5abbd081-3c9e-4fba-82a3-ec9cfdfa41cb"
+  ]
+}

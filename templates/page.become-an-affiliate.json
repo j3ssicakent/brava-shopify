@@ -1,0 +1,256 @@
+{
+  "sections": {
+    "166161901464a25e50": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "166161901437c6bc67-1": {
+          "type": "heading",
+          "settings": {
+            "text": "become an affiliate",
+            "heading_size": "h1-xlarge"
+          }
+        }
+      },
+      "block_order": [
+        "166161901437c6bc67-1"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/become-an-affiliate.jpg",
+        "image_parallax": true,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-350",
+        "content_width": "medium",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "overlay_opacity": 25,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "dabb125b-c46f-4e06-87d6-5d5792cf3369": {
+      "type": "rich-text",
+      "blocks": {
+        "c9c17348-a929-4230-a5be-63fd9958a04e": {
+          "type": "heading",
+          "settings": {
+            "text": "Become an Affiliate",
+            "size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "c9c17348-a929-4230-a5be-63fd9958a04e"
+      ],
+      "custom_css": [
+        "h3 {margin-bottom: 3rem;}"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "ba11ec79-e11c-46b0-8c7f-6f4586120ca3": {
+      "type": "rich-text",
+      "blocks": {
+        "dbcf666f-cbb9-4191-9cbe-129fa9903b24": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>Love what we offer? Want to earn some cash for helping us grow?<\/h6>",
+            "size": "text-size-large"
+          }
+        },
+        "b895eb17-0423-436d-9f83-a87ae93e14ef": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Now you can with <strong>brava affiliate<\/strong>! Simply put - <strong>anyone<\/strong> can join brava affiliate.<\/p>",
+            "size": "text-size-large"
+          }
+        }
+      },
+      "block_order": [
+        "dbcf666f-cbb9-4191-9cbe-129fa9903b24",
+        "b895eb17-0423-436d-9f83-a87ae93e14ef"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1662373200967c613c": {
+      "type": "rich-text",
+      "blocks": {
+        "8b603d56-7f55-4ae4-a59c-2ec2bd335d0a": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>You have two ways to earn a percentage of every order processed through your unique affiliate link.<\/strong><\/p>",
+            "size": "text-size-large"
+          }
+        },
+        "6ff53987-13c5-4fce-ae9a-57516f8227da": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can earn 5% of every order purchased through your affiliate link. That’s standard for everyone.<br\/>How about 10% of every order? <strong>Here’s how.<\/strong><\/p>",
+            "size": "text-size-large"
+          }
+        },
+        "5deb73e6-1668-40d8-9a30-320dc254da8f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can earn 10% of every order purchased through your affiliate link by owning at least 1 NFT from an approved policy ID of any of our brava brands.<\/p>",
+            "size": "text-size-large"
+          }
+        }
+      },
+      "block_order": [
+        "8b603d56-7f55-4ae4-a59c-2ec2bd335d0a",
+        "6ff53987-13c5-4fce-ae9a-57516f8227da",
+        "5deb73e6-1668-40d8-9a30-320dc254da8f"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "{{ shop.brand.colors.primary[0].foreground }}",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "3c09c081-19b7-4ff3-be5a-ed93a3f30d15": {
+      "type": "rich-text",
+      "blocks": {
+        "5f4e98c1-34e8-45dd-b2cb-ad89a8b8c0d9": {
+          "type": "heading",
+          "settings": {
+            "text": "Getting Started",
+            "size": "h3"
+          }
+        },
+        "c25e54f1-25cc-409a-ae33-721e9d786071": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Head over to our <a href=\"https:\/\/portal.bravaland.com\/#\/\" target=\"_blank\" title=\"brava affiliate portal\">affiliate portal<\/a>, create an account with a few clicks, and connect your wallet. We’ll scan for any NFTs in your wallet eligible for 10% affiliate rewards in the background.<\/p>",
+            "size": "text-size-large"
+          }
+        },
+        "6ec10c53-85a0-40e1-ba91-55f6bd631001": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>NOTE - <\/strong>Connecting your wallet is entirely optional. You are welcome to skip this step and earn 5% commission on all orders driven via your unique affiliate link.<\/p>",
+            "size": "text-size-large"
+          }
+        },
+        "c5e3b8d7-123f-4ac9-a075-4e111dcfce69": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From here, navigate to your dashboard, grab your affiliate link, and start adding that link to any content you create - from a tweet to a Tiktok!<\/p>",
+            "size": "text-size-large"
+          }
+        },
+        "80165305-0cba-4430-bbbe-707a377e7c7f": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"\/pages\/eligible-brands\" target=\"_blank\" title=\"Eligible Brands\">View our list of eligible brands and policy IDs.<\/a><\/p>",
+            "size": "text-size-large"
+          }
+        }
+      },
+      "block_order": [
+        "5f4e98c1-34e8-45dd-b2cb-ad89a8b8c0d9",
+        "c25e54f1-25cc-409a-ae33-721e9d786071",
+        "6ec10c53-85a0-40e1-ba91-55f6bd631001",
+        "c5e3b8d7-123f-4ac9-a075-4e111dcfce69",
+        "80165305-0cba-4430-bbbe-707a377e7c7f"
+      ],
+      "custom_css": [
+        "a {text-transform: none;}"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "{{ shop.brand.colors.primary[0].foreground }}",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "4d1f6169-4b16-4e0f-a6a8-4c4899c39dcc": {
+      "type": "rich-text",
+      "blocks": {
+        "affe598a-b735-4568-8934-507a7bbddaca": {
+          "type": "heading",
+          "settings": {
+            "text": "Get Paid",
+            "size": "h3"
+          }
+        },
+        "4076afff-1fd9-442c-a9ab-e70967fb38a9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Payments are issued from us to you via PayPal each month. If you have any issues with PayPal, please contact their support team.<\/p>",
+            "size": "text-size-large"
+          }
+        },
+        "9350d6e4-31b8-4555-97bb-70a2cf3c006e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For questions about our affiliate program, please contact us at <a href=\"mailto:info@bravaland.com\"><span style=\"text-decoration:underline\">info@bravaland.com<\/span><\/a> or DM us on Twitter <a href=\"http:\/twitter.com\/mybravaland\" target=\"_blank\" title=\"Twitter\">@mybravaland<\/a>!<\/p>",
+            "size": "text-size-large"
+          }
+        },
+        "93618fb9-35d6-4d3a-90fd-ef6bcda18dbd": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><a href=\"https:\/\/portal.bravaland.com\/#\/login\" target=\"_blank\" title=\"brava affiliate portal\">Now go get that affiliate link!<\/a><\/h6>",
+            "size": "text-size-large"
+          }
+        }
+      },
+      "block_order": [
+        "affe598a-b735-4568-8934-507a7bbddaca",
+        "4076afff-1fd9-442c-a9ab-e70967fb38a9",
+        "9350d6e4-31b8-4555-97bb-70a2cf3c006e",
+        "93618fb9-35d6-4d3a-90fd-ef6bcda18dbd"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "{{ shop.brand.colors.primary[0].foreground }}",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "166161901464a25e50",
+    "dabb125b-c46f-4e06-87d6-5d5792cf3369",
+    "ba11ec79-e11c-46b0-8c7f-6f4586120ca3",
+    "1662373200967c613c",
+    "3c09c081-19b7-4ff3-be5a-ed93a3f30d15",
+    "4d1f6169-4b16-4e0f-a6a8-4c4899c39dcc"
+  ]
+}

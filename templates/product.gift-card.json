@@ -1,0 +1,133 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
+    "custom-product": {
+      "type": "gift-card-product",
+      "blocks": {
+        "e431a79e-9c7b-4a53-a79a-0cb918617ecf": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.brand.value.name.value }}",
+            "text_style": "style_vendor"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "uppercase": false,
+            "show_products_rating": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "variant_is_disabled": true,
+            "sizing_guide_text": "Sizing guide",
+            "sizing_guide_icon": "ruler",
+            "sizing_guide_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true
+          }
+        },
+        "0b3e272b-c86a-4dba-946c-c6912251371c": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "95b7e00a-0453-4eb0-9cf0-1dae84d8b822": {
+          "type": "side_panel",
+          "settings": {
+            "side_panel_1_label": "Materials",
+            "side_panel_1_icon": "leather",
+            "side_panel_1_page": "",
+            "side_panel_2_label": "Shipping & Returns",
+            "side_panel_2_icon": "box",
+            "side_panel_2_page": "shipping-information",
+            "side_panel_3_label": "Care Guide",
+            "side_panel_3_icon": "washing",
+            "side_panel_3_page": ""
+          }
+        },
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
+          "type": "share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "e431a79e-9c7b-4a53-a79a-0cb918617ecf",
+        "title",
+        "variant_picker",
+        "buy_buttons",
+        "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
+      ],
+      "custom_css": [
+        ".product-images__slide {display: contents;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "enable_sticky_info": true,
+        "enable_sticky_add_to_cart": true,
+        "show_taxes_included": true,
+        "media_layout": "list",
+        "display_slider_pagination": true,
+        "media_aspect_ratio": "square",
+        "display_captions": false,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "SIMILAR PRODUCTS",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "dda41dbd-574c-4477-ac3d-6a18346a59ec": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "more gift cards",
+        "heading_left": false,
+        "description": "",
+        "full_width": false,
+        "collection": "gift-cards",
+        "display_type": "carousel",
+        "product_limit": 8,
+        "columns_desktop": 3,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false,
+        "current_product": "{{ product }}"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "custom-product",
+    "product-recommendations",
+    "dda41dbd-574c-4477-ac3d-6a18346a59ec"
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "sections": {
+    "166161901464a25e50": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "166161901437c6bc67-1": {
+          "type": "heading",
+          "settings": {
+            "text": "joining brava",
+            "heading_size": "h1-xlarge"
+          }
+        }
+      },
+      "block_order": [
+        "166161901437c6bc67-1"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/joining-brava.jpg",
+        "image_parallax": true,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-350",
+        "content_width": "medium",
+        "content_position": "middle-right",
+        "text_alignment": "center",
+        "overlay_opacity": 25,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "dabb125b-c46f-4e06-87d6-5d5792cf3369": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18112915374375__dabb125b-c46f-4e06-87d6-5d5792cf3369-1684170311b0911365-2": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>Are you an NFT brand with a cult like community following who’s dying for some merch!?<\/h6>",
+            "size": "text-size-large"
+          }
+        },
+        "53dea7c0-81e7-409c-a4af-d2ad2986034f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re a turnkey NFT merchandise retailer - meaning we take care of everything but your IP. (Though we do collaborate on exclusive designs with our brands, too!)<\/p>",
+            "size": "text-size-large"
+          }
+        },
+        "e1893841-5556-482d-ba07-6f32e93281f3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We take care of the infrastructure: dedicated team, product sourcing, vendor relationships, business model, talent & photography, product support, shipping & logistics, affiliate program, and our personal favorite: <em>marketing<\/em> across TikTok, Twitter, Instagram, and Threads.<\/p>",
+            "size": "text-size-large"
+          }
+        },
+        "608b9eba-ce99-4324-a746-d8a52814161d": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><strong>Curious to join brava? Here’s what we’re looking for in a potential brand partner:<\/strong><\/h6>",
+            "size": "text-size-large"
+          }
+        }
+      },
+      "block_order": [
+        "template--18112915374375__dabb125b-c46f-4e06-87d6-5d5792cf3369-1684170311b0911365-2",
+        "53dea7c0-81e7-409c-a4af-d2ad2986034f",
+        "e1893841-5556-482d-ba07-6f32e93281f3",
+        "608b9eba-ce99-4324-a746-d8a52814161d"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1662373200967c613c": {
+      "type": "rich-text",
+      "blocks": {
+        "6ff53987-13c5-4fce-ae9a-57516f8227da": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>A solid value proposition in your NFT ecosystem<\/li><li>A cult like community following whose support has only grown stronger (and demand for merch, too!)<\/li><li>A track record of delivering according to your roadmap and evolving identity<\/li><li>A dedicated team that prides itself on professionalism, kindness, and communication<\/li><li>A gusto to co market alongside us in novel ways (we’re talkin’ bout content creation where our customers flock to most)<\/li><\/ul>",
+            "size": "text-size-large"
+          }
+        },
+        "5deb73e6-1668-40d8-9a30-320dc254da8f": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>If that’s your brand in a nutshell, please drop us a line below! We’d love to hear from you.<\/p>",
+            "size": "text-size-large"
+          }
+        }
+      },
+      "block_order": [
+        "6ff53987-13c5-4fce-ae9a-57516f8227da",
+        "5deb73e6-1668-40d8-9a30-320dc254da8f"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "d76a1345-873c-4ceb-b8f0-11a5743a7391": {
+      "type": "contact-form",
+      "custom_css": [
+        "textarea {border-radius: 16px;}"
+      ],
+      "settings": {
+        "heading": "We'd love to hear from you!",
+        "description": "<p>If that’s your brand in a nutshell, please drop us a line below!<\/p>",
+        "show_phone_number": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "166161901464a25e50",
+    "dabb125b-c46f-4e06-87d6-5d5792cf3369",
+    "1662373200967c613c",
+    "d76a1345-873c-4ceb-b8f0-11a5743a7391"
+  ]
+}

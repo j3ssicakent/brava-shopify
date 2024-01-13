@@ -1,0 +1,128 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "5b1ab378-833d-4a94-a02e-8325ec1551d0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "VISIT US ON TIKTOK @bravaland.com",
+            "link": "https:\/\/www.tiktok.com\/@bravaland.com"
+          }
+        },
+        "971c93dd-e094-4a30-adfa-a71acbc9a19e": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "EXCLUSIVE DESIGNS ARE HERE I GIFTING JUST GOT EASIER 🎁",
+            "link": "https:\/\/bravaland.com\/collections\/exclusives"
+          }
+        },
+        "ad23776c-41a8-4720-870f-18d08bda2747": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "15% OFF $HOSKY PREMIUM APPAREL, FRAMED POSTERS, & PHONE CASES WITH HOSKY I ENDS THURSDAY, 11:59PM PDT (FRIDAY, 6:59AM UTC)",
+            "link": ""
+          }
+        },
+        "adbb0333-bd7f-44bb-a78b-88bda6248fb8": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "15% OFF DISCO SOLARIS THRU THURSDAY, 11:59pm PDT | USE DISCO AT CHECKOUT",
+            "link": "shopify:\/\/collections\/disco-solaris"
+          }
+        },
+        "1ac455b4-6a76-477b-90d8-f7c748d5c67f": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "15% OFF STOREWIDE I ENDS FRIDAY, 11:59PM PDT (SATURDAY, 6:59AM UTC)",
+            "link": "https:\/\/bravaland.com\/collections\/premium"
+          }
+        }
+      },
+      "block_order": [
+        "5b1ab378-833d-4a94-a02e-8325ec1551d0",
+        "971c93dd-e094-4a30-adfa-a71acbc9a19e",
+        "ad23776c-41a8-4720-870f-18d08bda2747",
+        "adbb0333-bd7f-44bb-a78b-88bda6248fb8",
+        "1ac455b4-6a76-477b-90d8-f7c748d5c67f"
+      ],
+      "custom_css": [
+        "a {font-weight: 700; text-transform: uppercase; font-color: #000000;}"
+      ],
+      "settings": {
+        "announcement_bar": true,
+        "announcement_bar_homepage_only": false,
+        "announcement_bar_layout": "carousel",
+        "direction": "left",
+        "speed": "20s"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "b624f5e1-f846-4d9b-8cdb-97d6aadf23d4": {
+          "type": "megamenu",
+          "settings": {
+            "position": "2",
+            "promo_1_heading": "",
+            "promo_1_link_label": "Shop now",
+            "promo_1_link": "shopify:\/\/pages\/brands",
+            "promo_2_heading": "",
+            "promo_2_link_label": "Shop now",
+            "promo_2_link": ""
+          }
+        },
+        "06d69234-a3e3-4d28-b297-34c2b32e96bf": {
+          "type": "megamenu",
+          "settings": {
+            "position": "3",
+            "promo_1_heading": "shop all",
+            "promo_1_link_label": "shop all",
+            "promo_1_link": "shopify:\/\/collections\/all",
+            "promo_2_heading": "Promotion heading",
+            "promo_2_link_label": "Shop",
+            "promo_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b624f5e1-f846-4d9b-8cdb-97d6aadf23d4",
+        "06d69234-a3e3-4d28-b297-34c2b32e96bf"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "sticky_header": true,
+        "logo": "shopify:\/\/shop_images\/Artboard_1.png",
+        "logo_height_range": 70,
+        "logo_height_range_mobile": 50,
+        "style": "style3",
+        "header_shadow": "header--shadow-small",
+        "menu": "main-menu",
+        "transparent_header": false,
+        "show_language_switcher": false,
+        "show_currency_switcher": false,
+        "mobile_secondary_menu": "",
+        "mobile_promo_heading": "Promotion heading",
+        "mobile_promo_link_label": "Shop",
+        "mobile_promo_link": ""
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

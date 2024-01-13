@@ -1,0 +1,192 @@
+{
+  "sections": {
+    "cf4c85d3-e0d6-4419-add0-eeaf997480df": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--17959006535975__cf4c85d3-e0d6-4419-add0-eeaf997480df-167716437799d5d276-1": {
+          "type": "heading",
+          "settings": {
+            "text": "How Can We Help?",
+            "heading_size": "h1-xlarge"
+          }
+        },
+        "template--17959006535975__cf4c85d3-e0d6-4419-add0-eeaf997480df-167716437799d5d276-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"mailto:info@bravaland.com\" target=\"_blank\" title=\"mailto:info@bravaland.com\">info@bravaland.com<\/a><\/p>",
+            "description_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "template--17959006535975__cf4c85d3-e0d6-4419-add0-eeaf997480df-167716437799d5d276-1",
+        "template--17959006535975__cf4c85d3-e0d6-4419-add0-eeaf997480df-167716437799d5d276-2"
+      ],
+      "custom_css": [
+        "a {color: white;}"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/faqs.jpg",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-350",
+        "content_width": "medium",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "overlay_opacity": 25,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "166186303682d7c655": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 15,
+        "spacer_desktop": 35,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "60a2c47f-1f85-4b40-9518-70e8135688cc": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Orders, Shipping & Tracking"
+          }
+        },
+        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What is brava?",
+            "open": false,
+            "content": "<p>brava is an NFT merchandise retailer that offers clothing, accessories, and home products from some of the most beautiful and innovative NFT brands in Web3.<\/p>",
+            "page": ""
+          }
+        },
+        "aa70895f-8889-4293-8c7d-ff7bc2b81c57": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Who’s behind brava?",
+            "open": false,
+            "content": "<p>brava is built and led by a robust team of Web3 professionals who have dedicated the past few years to building innovative brands and tools in the Cardano NFT ecosystem. Each team member is highly specialized with a wealth of experience in the private sector - spanning management consulting, creative design, marketing, and technical development.<\/p>",
+            "page": ""
+          }
+        },
+        "fa2985e2-4983-462b-80c8-596d4ae47540": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Where is brava based?",
+            "open": false,
+            "content": "<p>Our team is global. We work remote and will stay that way. There’s always someone online and ready to support our customers and brands. That’s using time zones to our advantage!<\/p>",
+            "page": ""
+          }
+        },
+        "72f09ca5-4337-4a0b-bcd2-0a7af9183034": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What’s different about you?",
+            "open": false,
+            "content": "<p>brava is the first of its kind to introduce a “universally beneficial business model” to the NFT ecosystem from any blockchain. In sum, everyone who interacts and supports brava benefits. That’s our ethos. We sell stellar product. Our brands gain access to high quality merch, plus benefit from our 24\/7 marketing activities plugging their brands.<\/p><p>Our customers? Not only do they get access to merch from their favorite NFT brands; they also get access to our affiliate program. Ensuring we do more good than harm is what makes us an unparalleled force in the NFT merchandise space.<\/p>",
+            "page": ""
+          }
+        },
+        "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What type of brands do you work with?",
+            "open": false,
+            "content": "<p>We’re proud to have launched with outstanding NFT brands on the Cardano blockchain. Our vision is to expand our brand offering to reflect the diversity of the NFT landscape. Expect to see quite a few brands from a variety of blockchains added to bravaland.com in the near future. <\/p><p>All eligible NFT brands from any NFT blockchain are welcome to apply to become a #bravabrand.<\/p>",
+            "page": ""
+          }
+        },
+        "5f34dba8-15e0-4aac-91f7-5a103657361d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How can a brand work with you?",
+            "open": false,
+            "content": "<p><a href=\"\/pages\/joining-brava\" title=\"Joining brava\">Drop us a note!<\/a> Someone from our team will reach out and arrange a conversation.<\/p>",
+            "page": ""
+          }
+        },
+        "56776cb0-eda8-4b0f-83b1-ba33d7c69393": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What types of products do you offer?",
+            "open": false,
+            "content": "<p>Ready to wear clothing is our passion. Our commitment to our brands and customers is to constantly evolve the quality and value of each piece of clothing we sell. That includes accessories and home, too. There’s no reason why your favorite NFT brand shouldn’t be part of your daily commute \/ office \/ lifestyle. That’s why phone cases and posters are just the beginning. <\/p><p>Expect additional product launches throughout the year.<\/p>",
+            "page": ""
+          }
+        },
+        "e11d7db3-cacf-4e7b-820c-9b2af74532e0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "When does new product get added?",
+            "open": false,
+            "content": "<p>Ideally every month. Before committing to any product, we test it, wear it, and wash it, especially if it requires garment printing. We’ll continue to prioritize elevating quality by investing in our infrastructure and vendor relationships. Improving current product before expanding into additional product channels is our commitment.<\/p>",
+            "page": ""
+          }
+        },
+        "82ca411d-662d-4f05-accd-2b26b0047d22": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do you offer returns and \/ or exchanges?",
+            "open": false,
+            "content": "<p><a href=\"\/pages\/returns\" target=\"_blank\" title=\"Returns\">We do offer returns<\/a> within our eligibility window, depending on where you’re shipping from. At this time, we do not offer exchanges.<\/p>",
+            "page": ""
+          }
+        },
+        "1d8388ff-b870-42df-927d-c3680ca23347": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What’s brava affiliate about?",
+            "open": false,
+            "content": "<p>brava affiliate is our pay it forward to our supportive community. Designed to put funds back into the pockets of those who co market alongside us. Anyone can join, and there’s two commission options you can choose to earn from. <a href=\"\/pages\/become-an-affiliate\" title=\"Become An Affiliate\">Learn more.<\/a><\/p>",
+            "page": ""
+          }
+        },
+        "eb9fcb34-e8b7-4d5d-bfe5-c72afefd6353": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do you offer special affiliate deals for content creators?",
+            "open": false,
+            "content": "<p>Why yes we do! Contact <a href=\"mailto:info@bravaland.com\"><span style=\"text-decoration:underline\">info@bravaland.com<\/span><\/a> and let us know how you plan to market us. We’d love to work with you!<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "60a2c47f-1f85-4b40-9518-70e8135688cc",
+        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6",
+        "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
+        "fa2985e2-4983-462b-80c8-596d4ae47540",
+        "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
+        "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f",
+        "5f34dba8-15e0-4aac-91f7-5a103657361d",
+        "56776cb0-eda8-4b0f-83b1-ba33d7c69393",
+        "e11d7db3-cacf-4e7b-820c-9b2af74532e0",
+        "82ca411d-662d-4f05-accd-2b26b0047d22",
+        "1d8388ff-b870-42df-927d-c3680ca23347",
+        "eb9fcb34-e8b7-4d5d-bfe5-c72afefd6353"
+      ],
+      "custom_css": [
+        "a {text-transform: none;}"
+      ],
+      "settings": {
+        "heading": "frequently asked questions",
+        "description": "",
+        "uppercase_heading": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "cf4c85d3-e0d6-4419-add0-eeaf997480df",
+    "166186303682d7c655",
+    "faq"
+  ]
+}

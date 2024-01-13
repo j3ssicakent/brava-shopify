@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "d00fb7d5-2188-4352-a3ca-bd9474daf345": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "60ea8e54-cec8-44d7-89ac-61d63dbc8e15": {
+          "type": "heading",
+          "settings": {
+            "text": "welcome to brava",
+            "heading_size": "h1-xlarge"
+          }
+        }
+      },
+      "block_order": [
+        "60ea8e54-cec8-44d7-89ac-61d63dbc8e15"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/HOSKY_1_3_NOLOGO_banner_2.png",
+        "image_parallax": true,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-500",
+        "content_width": "medium",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "overlay_opacity": 25,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "main-login": {
+      "type": "main-login",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "d00fb7d5-2188-4352-a3ca-bd9474daf345",
+    "main-login"
+  ]
+}

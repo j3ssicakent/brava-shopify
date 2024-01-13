@@ -1,0 +1,111 @@
+{%- liquid
+	if sticky
+		assign appended = '--sticky'
+	endif
+	if product.type == 'Poster' or product.type == 'Framed Poster'
+		assign assign option_type = 'dropdown'
+	endif
+-%}
+{%- case option_type -%}
+{%- when 'dropdown' -%}
+	<fieldset class="product-form__input product-form__input--dropdown">
+		<div class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}{{ appended }}">
+		  {{ option.name }}{{ sizing_link }}
+		</div>
+		<div class="select">
+		  <select
+				id="Option-{{ section.id }}-{{ forloop.index0 }}{{ appended }}"
+				name="options[{{ option.name | escape | append: appended }}]"
+				form="{{ product_form_id }}"
+			>
+		    {%- for value in option.values -%}
+		      <option value="{{ value | escape }}" {% if option.selected_value == value %}selected="selected"{% endif %}>
+		        {{ value }}
+		      </option>
+		    {%- endfor -%}
+		  </select>
+			<div class="select-arrow">{%- render 'svg-icons' with 'thb-select' -%}</div>
+		</div>
+	</fieldset>
+{%- when 'button' -%}
+	<fieldset class="product-form__input product-form__input--block">
+		{% assign label = shop.metaobjects['variant_labels'][option.selected_value] %}
+		<div class="form__label">{{ option.name }}: <span class="form__label__value">
+			{% if label %}{{ label.name }}{% else %}{{ option.selected_value }}{% endif %}
+		</span>{{ sizing_link }}</div>
+		{%- for value in option.values -%}
+			<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
+						name="{{ option.name | append: appended }}"
+						value="{{ value | escape }}"
+						form="{{ product_form_id }}"
+						{% if option.selected_value == value %}checked{% endif %}
+						data-label="{{ shop.metaobjects['variant_labels'][value].name }}"
+			>
+			<label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}">
+				<span>{{ value }}</span>
+			</label>
+		{%- endfor -%}
+	</fieldset>
+{%- when 'color' -%}
+	{%- liquid
+	assign custom_colors = settings.color_swatches | newline_to_br | split: '<br />'
+	assign key_array = ''
+	assign val_array = ''
+
+	for color in custom_colors
+		assign key = color | split: ':' | first | rstrip
+		assign value = color | split: ':' | last | lstrip
+		assign key_array = key_array | append: ',' | append: key
+		assign val_array = val_array | append: ',' | append: value
+	endfor
+
+	assign key_array = key_array | remove_first: ',' | strip_newlines | downcase | split: ','
+	assign val_array = val_array | remove_first: ',' | split: ','
+	-%}
+	<fieldset class="product-form__input product-form__input--color">
+		{% assign trimmedOption = option.selected_value | replace: " ", "-" | remove: "." %}
+		<div class="form__label">{{ option.name }}: <span class="form__label__value">
+			{{ option.selected_value }}
+		</span></div>
+		{%- for value in option.values -%}
+			<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
+						name="{{ option.name | append: appended }}"
+						value="{{ value | escape }}"
+						form="{{ product_form_id }}"
+						{% if option.selected_value == value %}checked{% endif %}
+			>
+				
+			{%- liquid
+				assign color_value = value | downcase | escape
+				
+			-%}
+				{% for custom_color in key_array %}
+					{% if custom_color == color_value %}
+						
+						{% if val_array[forloop.index0] contains '#' %}
+							{% assign hex = val_array[forloop.index0] %}
+						{% endif %}
+					{% endif %}
+				{% endfor %}
+				{%- liquid
+
+				for custom_color in key_array
+					if custom_color == color_value
+						assign color_value = val_array[forloop.index0]
+					endif
+				endfor
+
+				if color_value contains '.'
+					assign bg_value = color_value | file_url
+				endif
+				if color_value contains "avenue"
+					assign hex = "#FFF8EA"
+					assign bg_value = "l_avenue.png"
+				endif
+			-%}
+			<label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}" style="--option-color: {{ hex | downcase | escape }}; {%- if bg_value -%} --option-color-image: url('{{ bg_value | escape }}');{%- endif -%}">
+			</label>
+			{% assign bg_value = null %}
+		{%- endfor -%}
+	</fieldset>
+{%- endcase -%}

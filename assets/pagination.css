@@ -1,0 +1,74 @@
+.pagination {
+  display: block;
+  text-align: center;
+  min-height: 42px;
+  position: relative;
+}
+
+.pagination.pagination-type--infinite .button {
+  display: none;
+}
+
+.pagination.pagination-type--infinite[loading="true"] .loading-overlay {
+  display: block;
+}
+
+.page-numbers {
+  text-align: center;
+}
+
+.page-numbers span {
+  display: inline-flex;
+  vertical-align: middle;
+  color: var(--color-accent);
+  background: #fff;
+  box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.page-numbers .page a,
+.page-numbers .next a,
+.page-numbers .prev a,
+.page-numbers .current {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  height: 40px;
+  padding: 5px;
+  font-size: 0.875rem;
+  line-height: 0;
+  border-radius: 50%;
+  transition: none;
+}
+
+.page-numbers .next a,
+.page-numbers .prev a {
+  background-color: var(--outline-button-label);
+}
+
+.page-numbers .next a svg path,
+.page-numbers .prev a svg path {
+  stroke: #fff;
+}
+
+
+.page-numbers .page a:hover {
+  border: 2px solid var(--outline-button-label);
+}
+
+.page-numbers .current {
+  border: 2px solid var(--outline-button-label);
+}
+
+.page-numbers .next a:hover,
+.page-numbers .prev a:hover {
+  background: #fff;
+  border: 2px solid var(--outline-button-label);
+}
+
+.page-numbers .next a:hover svg path,
+.page-numbers .prev a:hover svg path {
+  stroke: var(--outline-button-label);
+}

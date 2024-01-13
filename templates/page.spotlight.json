@@ -1,0 +1,349 @@
+{
+  "sections": {
+    "166161901464a25e50": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "166161901437c6bc67-1": {
+          "type": "heading",
+          "settings": {
+            "text": "brava spotlight",
+            "heading_size": "h1-xlarge"
+          }
+        }
+      },
+      "block_order": [
+        "166161901437c6bc67-1"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/joining-brava.jpg",
+        "image_parallax": true,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-350",
+        "content_width": "medium",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "overlay_opacity": 25,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "681245ca-78df-4538-8f98-6122544ee937": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21326894792999__681245ca-78df-4538-8f98-6122544ee937-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "create. promote. earn.",
+            "size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21326894792999__681245ca-78df-4538-8f98-6122544ee937-heading-1"
+      ],
+      "custom_css": [
+        "h3 {font-size: 4rem; margin: 3rem auto 2.5rem;}"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "{{ shop.brand.colors.primary[0].foreground }}",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "58bc3164-fda4-4482-a93a-00836c8ce916": {
+      "type": "promotional-banner",
+      "disabled": true,
+      "custom_css": [
+        ".promotional-banner--image {width: 75%; margin: 2rem auto 1rem;}"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify:\/\/shop_images\/create._promote._earn..png",
+        "image_height": "adapt",
+        "image_width": "full",
+        "frame_border": false,
+        "content_position": "text-center",
+        "split_layout": "image_first",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "dabb125b-c46f-4e06-87d6-5d5792cf3369": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18112915374375__dabb125b-c46f-4e06-87d6-5d5792cf3369-1684170311b0911365-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Purpose - to collaborate with volunteer content creators and produce UGC content to be used across brava social media channels.<\/strong><\/em><\/p>",
+            "size": "text-size-large"
+          }
+        }
+      },
+      "block_order": [
+        "template--18112915374375__dabb125b-c46f-4e06-87d6-5d5792cf3369-1684170311b0911365-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "2d0a24c0-b5f4-4bf8-8f16-d6939b361169": {
+      "type": "gallery",
+      "blocks": {
+        "template--21326894792999__2d0a24c0-b5f4-4bf8-8f16-d6939b361169-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lily_left.jpg",
+            "subheading": "",
+            "caption": "<p><em>courtesy of @lilycnft<\/em><\/p>",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "13ebb928-cb2c-4313-b39a-6d17cc4670e2": {
+          "type": "video",
+          "settings": {
+            "video_hosted": "shopify:\/\/files\/videos\/bravatiktok.MOV",
+            "aspect_ratio": "4-5"
+          }
+        },
+        "7e41e00c-1860-4ea1-819d-9ed8fbf8bca0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cattebrie_right.jpg",
+            "subheading": "",
+            "caption": "<p><em>courtesy of @Mrs_Lurker<\/em><\/p>",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21326894792999__2d0a24c0-b5f4-4bf8-8f16-d6939b361169-image-1",
+        "13ebb928-cb2c-4313-b39a-6d17cc4670e2",
+        "7e41e00c-1860-4ea1-819d-9ed8fbf8bca0"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "section_width": "full-width-row-full",
+        "mobile_swipe": false,
+        "image_ratio": "portrait",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h2",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1662373200967c613c": {
+      "type": "rich-text",
+      "blocks": {
+        "18fca2b3-2d26-458f-9966-5e1094982b3e": {
+          "type": "heading",
+          "settings": {
+            "text": "Eligibility",
+            "size": "h3"
+          }
+        },
+        "6ff53987-13c5-4fce-ae9a-57516f8227da": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Content creators will apply to be part of our program. They will submit (3) pieces of content suited for X, IG, and \/ or TikTok, including at least (1) video. English must be used across all relevant content.<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "18fca2b3-2d26-458f-9966-5e1094982b3e",
+        "6ff53987-13c5-4fce-ae9a-57516f8227da"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "440ff28c-311b-4543-b9cc-74a83baf69e3": {
+      "type": "rich-text",
+      "blocks": {
+        "b0a52d64-355c-4ea9-b950-73fd774115c5": {
+          "type": "heading",
+          "settings": {
+            "text": "Usage",
+            "size": "h3"
+          }
+        },
+        "d48609fd-5668-4850-88ad-16efa7ee3dbd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The creator grants full ownership, copyright, and usage rights of all submitted content to brava upon creator’s acceptance of entry into the program. The creator is encouraged to share content across his \/ her own social media channels, tagging brava, and encouraging others to support brava immediately.<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "b0a52d64-355c-4ea9-b950-73fd774115c5",
+        "d48609fd-5668-4850-88ad-16efa7ee3dbd"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "41db1eff-d4f8-483e-ba76-6be007ec3b5d": {
+      "type": "rich-text",
+      "blocks": {
+        "d5e0143c-0485-40dc-b3ab-0b3f5ce37d71": {
+          "type": "heading",
+          "settings": {
+            "text": "Creator Requirements",
+            "size": "h3"
+          }
+        },
+        "f377a3b5-9f82-4f46-92f2-11c00fe2c350": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If selected, the creator will receive free merch at regular intervals throughout the year and create at least (3) pieces of content for each item received, including at least (2) videos suited for TikTok. The creator is also eligible for 20% affiliate commission.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "49e1c89a-c571-40d2-969c-e0f601f0c66e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unless otherwise specified, the creator is free to post and repost submitted content following submission and thereafter. The creator will have a unique affiliate code for inclusion in these unique posts. The creator will earn 20% commission for all sales generated through his \/ her affiliate link.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "49676feb-c8ac-4394-9822-2fbdb02eb85b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All submitted content will be approved by brava prior to sharing on creator and brava’s social media channels.<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "d5e0143c-0485-40dc-b3ab-0b3f5ce37d71",
+        "f377a3b5-9f82-4f46-92f2-11c00fe2c350",
+        "49e1c89a-c571-40d2-969c-e0f601f0c66e",
+        "49676feb-c8ac-4394-9822-2fbdb02eb85b"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "df7d0428-ebb6-48a7-87c2-47d6a4eb6b17": {
+      "type": "rich-text",
+      "blocks": {
+        "33ff42e1-f9dd-448e-acf8-99ec939ffee8": {
+          "type": "heading",
+          "settings": {
+            "text": "Deadline to Apply",
+            "size": "h3"
+          }
+        },
+        "810a68d7-6255-4600-9667-017bb595cf73": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Content creators will be accepted into brava Spotlight on a quarterly basis.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "614c6ced-f362-43e7-9421-61c7f6e8bac5": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Apply by<\/strong>: November 9<br\/><strong>Notified by<\/strong>: November 16<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "1a09126f-2e3b-4e4a-a051-6f1cb3de77f8": {
+          "type": "button",
+          "settings": {
+            "link_label": "APPLY HERE",
+            "link": "https:\/\/forms.gle\/TZFB6doZME17gVRW8",
+            "button_outline": true
+          }
+        }
+      },
+      "block_order": [
+        "33ff42e1-f9dd-448e-acf8-99ec939ffee8",
+        "810a68d7-6255-4600-9667-017bb595cf73",
+        "614c6ced-f362-43e7-9421-61c7f6e8bac5",
+        "1a09126f-2e3b-4e4a-a051-6f1cb3de77f8"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "166161901464a25e50",
+    "681245ca-78df-4538-8f98-6122544ee937",
+    "58bc3164-fda4-4482-a93a-00836c8ce916",
+    "dabb125b-c46f-4e06-87d6-5d5792cf3369",
+    "2d0a24c0-b5f4-4bf8-8f16-d6939b361169",
+    "1662373200967c613c",
+    "440ff28c-311b-4543-b9cc-74a83baf69e3",
+    "41db1eff-d4f8-483e-ba76-6be007ec3b5d",
+    "df7d0428-ebb6-48a7-87c2-47d6a4eb6b17"
+  ]
+}

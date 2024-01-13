@@ -1,0 +1,49 @@
+{
+  "sections": {
+    "50919430-1865-47fd-926e-310c2ead409c": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18112915538215__50919430-1865-47fd-926e-310c2ead409c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "contact us",
+            "heading_size": "h1-xlarge"
+          }
+        }
+      },
+      "block_order": [
+        "template--18112915538215__50919430-1865-47fd-926e-310c2ead409c-heading-1"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/contact-us.jpg",
+        "image_parallax": true,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-500",
+        "content_width": "medium",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "overlay_opacity": 25,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1652268757b7c53383": {
+      "type": "contact-form",
+      "custom_css": [
+        "textarea {border-radius: 16px;}"
+      ],
+      "settings": {
+        "heading": "Contact Us",
+        "description": "<p>Have a question? Send us a message and we'll get back to you asap!<\/p>",
+        "show_phone_number": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "50919430-1865-47fd-926e-310c2ead409c",
+    "1652268757b7c53383"
+  ]
+}

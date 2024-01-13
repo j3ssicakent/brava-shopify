@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "629a2f3e-cd5e-455d-aec8-a70825cb93d7": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18488802443559__629a2f3e-cd5e-455d-aec8-a70825cb93d7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "brava brands",
+            "heading_size": "h1-xlarge"
+          }
+        }
+      },
+      "block_order": [
+        "template--18488802443559__629a2f3e-cd5e-455d-aec8-a70825cb93d7-heading-1"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/brava_brands_nft_street_style_merchandise_retailer.png",
+        "image_parallax": true,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-400",
+        "content_width": "small",
+        "content_position": "bottom-right",
+        "text_alignment": "center",
+        "overlay_opacity": 16,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "brands": {
+      "type": "brand-page",
+      "settings": {
+      }
+    },
+    "30ef775c-f000-404a-9a1c-b9b10cafb85d": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "we think you may like",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "collection": "we-think-you-may-like",
+        "display_type": "carousel",
+        "product_limit": 8,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "629a2f3e-cd5e-455d-aec8-a70825cb93d7",
+    "brands",
+    "30ef775c-f000-404a-9a1c-b9b10cafb85d"
+  ]
+}

@@ -1,0 +1,216 @@
+{%- liquid
+  assign show_collection_image = section.settings.show_collection_image
+  assign show_collection_description = section.settings.show_collection_description
+  assign show_subcollections = section.settings.show_subcollections
+  assign make_heading_uppercase = section.settings.make_heading_uppercase
+  assign overlay_color = section.settings.overlay_color
+  assign overlay_opacity = section.settings.overlay_opacity
+
+  assign image = section.settings.image
+  assign title = collection.title
+  assign bio = section.settings.bio
+  assign description = collection.description
+  assign profile_image = section.settings.profile_image
+  assign twitter = section.settings.twitter
+  assign website = section.settings.website
+  assign brand_color = section.settings.brand_color
+
+-%}
+{%- if template == 'search' -%}
+  {%- liquid
+    assign show_collection_image = false
+    assign show_subcollections = false
+    assign title = 'search.heading' | t
+  -%}
+  {%- capture description %}
+		{% assign search_phrase = search.terms | replace: '*', '' %}
+		{% if '' != search_phrase %}
+			<p>{{ 'search.results_found' | t: count: search.results_count, key: search_phrase }}</p>
+		{% endif %}
+	{%- endcapture -%}
+{%- endif -%}
+{{ 'collection-banner.css' | asset_url | stylesheet_tag }}
+
+<div
+  class="collection-banner collection-banner--heading-uppercase-{{ make_heading_uppercase }}{% if show_collection_image and image %} collection-banner--has-bg{% endif %}"
+  style="--overlay-color-rgb: {{ overlay_color | color_extract: 'red' }}, {{ overlay_color | color_extract: 'green' }}, {{ overlay_color | color_extract: 'blue' }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}"
+>
+  <div class="collection-banner--breadcrumbs">
+    {%- render 'breadcrumbs' -%}
+  </div>
+  <div class="row full-width-row">
+    <div class="small-12 columns">
+      {%- if show_collection_image and image -%}
+        <div class="collection-banner--image">
+          {%- render 'responsive-image', image: image, sizes: '0x350,0x700' -%}
+        </div>
+	  {% else %}
+		<div class="collection-banner--image color" style="background-color: {{ brand_color }};"></div>
+      {%- endif -%}
+      {%- if profile_image -%}
+        <div class="brand-profile-image">
+          {%- render 'responsive-image', image: profile_image, sizes: '0x350,0x700' -%}
+        </div>
+      {%- endif -%}
+	  {% if twitter != blank or website != blank %}
+		<ul class="brand-links">
+			<li><a href="{{ twitter }}" class="social twitter" target="_blank" rel="noreferrer" title="Twitter">{% render 'svg-icons' with 'twitter' %} 
+			</a></li>
+			<li><a href="{{ website }}" class="social website" target="_blank" rel="noreferrer" title="JPG Store">{% render 'svg-icons' with 'globe' %} 
+			</a></li>
+		</ul>
+	  {% endif %}
+      <div class="collection-banner--content">
+        {% comment %} <h1 class="collection-banner--title">{{ title }}</h1> {% endcomment %}
+        {% if template == 'search' %}
+          <form role="search" method="get" class="searchform" action="{{ routes.search_url }}">
+            <fieldset>
+              <input
+                type="search"
+                class="search-field"
+                placeholder="{{ 'sections.header.search_for' | t | escape }}"
+                value="{{ search.terms | replace: '*', '' }}"
+                name="q"
+                autocomplete="off"
+              >
+              <button type="submit" class="thb-search-submit">{% render 'svg-icons' with 'search' %}</button>
+            </fieldset>
+          </form>
+        {% endif %}
+        {%- if show_collection_description and description != '' -%}
+          <div class="collection-banner--description">
+            <p>{{ description }}</p>
+          </div>
+        {%- endif -%}
+        {%- if show_subcollections -%}
+          {%- for link in linklists['main-menu'].links -%}
+            {%- if link.url == collection.url -%}
+              {%- capture subcollection_links -%}
+								{%- for sub_link in link.links -%}
+									<a href="{{ sub_link.url }}" title="{{ sub_link.title | escape }}" class="text-button{% if show_collection_image and image %} white{% endif %}">{{ sub_link.title }}</a>
+								{%- endfor -%}
+							{%- endcapture -%}
+            {%- else -%}
+              {%- for sub_link in link.links -%}
+                {%- if sub_link.url == collection.url -%}
+                  {%- capture subcollection_links -%}
+										{%- for sub_link_s in sub_link.links -%}
+											<a href="{{ sub_link_s.url }}" title="{{ sub_link_s.title | escape }}" class="text-button{% if show_collection_image and image %} white{% endif %}">{{ sub_link_s.title }}</a>
+										{%- endfor -%}
+									{%- endcapture -%}
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endif -%}
+          {%- endfor -%}
+          {%- if subcollection_links != '' -%}
+            <div class="collection-banner--subcollections">
+              {{ subcollection_links }}
+            </div>
+          {%- endif -%}
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="brand-container">
+	<div class="row full-width-row">
+		<div class="small-12 columns">
+			{% if title %}<h1 class="collection-banner--title">{{ title }}</h1>{% endif %}
+			{% if bio %}<div class="rte brand-bio">{{ bio }}</div>{% endif %}
+
+      </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Collection banner",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Collection page"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_collection_image",
+      "default": true,
+      "label": "Show collection image"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_collection_description",
+      "default": true,
+      "label": "Show collection description"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_subcollections",
+      "default": true,
+      "label": "Show subcollections",
+      "info": "Links to subcollections from your menu will appear here. [Learn more.](https://documentation.fuelthemes.net/kb/how-do-i-create-subcollections/)"
+    },
+    {
+      "type": "checkbox",
+      "id": "make_heading_uppercase",
+      "default": false,
+      "label": "Make heading uppercase"
+    },
+    {
+      "type": "header",
+      "content": "Brand info"
+    },
+    {
+      "type": "image_picker",
+      "id": "profile_image",
+      "label": "Profile image",
+      "info": "Select brand profile image. 500 x 500 px .jpg recommended."
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Banner image",
+      "info": "Select brand banner image. 1920 x 640 px .jpg recommended."
+    },
+	{
+		"type": "richtext",
+		"id": "bio",
+		"label": "Brand bio"
+	},
+	{
+		"id": "twitter",
+		"type": "url",
+		"label": "Twitter"
+	},
+	{
+		"id": "website",
+		"type": "url",
+		"label": "Website"
+	},
+	{
+		"id": "brand_color",
+		"type": "color",
+		"label": "Brand Color"
+	},
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Overlay opacity",
+      "default": 20
+    }
+  ]
+}
+{% endschema %}

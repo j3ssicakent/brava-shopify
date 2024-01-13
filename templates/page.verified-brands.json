@@ -1,0 +1,216 @@
+{
+  "sections": {
+    "166161901464a25e50": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "166161901437c6bc67-1": {
+          "type": "heading",
+          "settings": {
+            "text": "eligible brands",
+            "heading_size": "h1-xlarge"
+          }
+        }
+      },
+      "block_order": [
+        "166161901437c6bc67-1"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/become-an-affiliate.jpg",
+        "image_parallax": true,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-350",
+        "content_width": "medium",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "overlay_opacity": 25,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "dabb125b-c46f-4e06-87d6-5d5792cf3369": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18112915374375__dabb125b-c46f-4e06-87d6-5d5792cf3369-1684170311b0911365-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>You can earn 10% of every order purchased through your affiliate link by owning at least 1 NFT from an approved policy ID of any of our brava brands.<\/strong><\/p>",
+            "size": "text-size-large"
+          }
+        }
+      },
+      "block_order": [
+        "template--18112915374375__dabb125b-c46f-4e06-87d6-5d5792cf3369-1684170311b0911365-2"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "168d35ad-3ad4-4d23-8dc6-e19e4efe2999": {
+      "type": "rich-text",
+      "blocks": {
+        "b1bb0a8b-ca52-45e8-8d06-e080cd70b411": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>eligible brands<\/h2>",
+            "size": "text-size-large"
+          }
+        }
+      },
+      "block_order": [
+        "b1bb0a8b-ca52-45e8-8d06-e080cd70b411"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "{{ shop.brand.colors.primary[0].background }}",
+        "color_links": "{{ shop.brand.colors.primary[0].background }}",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "9661c649-846a-41c2-acc1-8773b1bac75a": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--20341966340391__9661c649-846a-41c2-acc1-8773b1bac75a-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--20341966340391__9661c649-846a-41c2-acc1-8773b1bac75a-collapsible_tab-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "$HOSKY",
+            "open": false,
+            "content": "<p><strong>Affiliates need to hold at least 1B $HOSKY Token AND at least 1 $HOSKY NFT to qualify.<\/strong><\/p><ul><li><strong>Token<\/strong>: a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235<\/li><li><strong>NFT: <\/strong>a5bb0e5bb275a573d744a021f9b3bff73595468e002755b447e01559<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "template--20341966340391__9661c649-846a-41c2-acc1-8773b1bac75a-collapsible_tab-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "BitFins",
+            "open": false,
+            "content": "<ul><li><strong>Series 1 - Discover: <\/strong>c16777d742784b7acd3940e0356596d313e141200fe8e48c8df16ba7<\/li><li><strong>Kori: <\/strong>028ada6ae2ad3fca73058b51bda63d186df562ebb578cc3c4e4ec7cb<\/li><li><strong>Depths of Creation: <\/strong>00b61eb000ed0e297b9136267d72008183569d548e8a5ce0e5eeca00<\/li><li><strong>Bokeh Fins: <\/strong>53ff0e6e401ea941a69b1d39da43ace7a16948b85ee6cf0f88791f18<\/li><li><strong>Novea: <\/strong>cadda95fc60abb18abde504efdc89ea51de1c90dd6308f884a868dc2<\/li><li><strong>Legacy: <\/strong>a4fab648e5298f4bb39a0d3a17ed7bbe2f5beb29fbc1dfc53d94ac74<\/li><li><strong>Pinnatus (Fish): <\/strong>b195436b8611daa8e7e70ff516696df21dd3fc1fb501358ff1c50ada<\/li><li><strong>Pinnatus (Decor): <\/strong>cc7849324cbdd0e19ced68b2cb44c7544189822f5b37be7647c06982<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "template--20341966340391__9661c649-846a-41c2-acc1-8773b1bac75a-collapsible_tab-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Cardano Stonerz Club",
+            "open": false,
+            "content": "<ul><li><strong>Titanium Scrotem: <\/strong>611641f56ffdf6aaa8e6e7e957aa18b7ff9332ebdd760cd8377ee685<\/li><li><strong>Mini Ninja Heroes: <\/strong>f81154f37a105b6027534743d1e3ef6c6ea220172e441b33e8792e22<\/li><li><strong>High AI series 1: <\/strong>5f24b097fa4a8681ca2ac7d401ef5193348ae1d5577edea196a76dde<\/li><li><strong>High AI series 2: <\/strong>2dd5fa63672129a51671ffdbad6cb8b26b242b078892f870cf31762c<\/li><li><strong>Stoner Frogs: <\/strong>581571312a84c8d74ddc00056cb8fc0459a8c5874ab84acd63cf4d76<\/li><li><strong>Stoned Apples: <\/strong>6e5617ecb959af89f7bd2ebdb0ff6802fbeda6c2c775de62adb44958<\/li><li><strong>3D Stonerz NFT: <\/strong>103f9730a858f3debb20b04f46379f14a2f080db51e377c3a9260e77<\/li><li><strong>Stonerz Club epoch Clocks: <\/strong>1cbff71e78d695a246443b0e746ea1ae0a65ad0b5ea4a5d4f9f11333<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "template--20341966340391__9661c649-846a-41c2-acc1-8773b1bac75a-collapsible_tab-4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "CryptoRaggies",
+            "open": false,
+            "content": "<p><strong>CryptoRaggies: <\/strong>9e3d7540365ebda2f15a55b15bda02f2ffe24ed3150a57a226714357<\/p><p><strong>CryptoRaggies S2: <\/strong>315c56fec9a9f03963d9ffe645e5efe385d5aee7f66bf6ebc84de3c3<\/p><p><strong>CryptoRaggies - VIP Plushies: <\/strong>697cd745ab35d2ed95d05416686047a6b45a0541d7caa63cc73cc348<\/p>",
+            "page": ""
+          }
+        },
+        "5f3921ce-8fa0-4839-94d2-6422fb7a1587": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Danketsu",
+            "open": false,
+            "content": "<ul><li><strong>Aramar: <\/strong>83c0ab67afc9148bd1571b7a14de1df03cd5624f5992d3b8ec84d6fb<\/li><li><strong>Atsuko: <\/strong>83cb87b69639e20d7c99755fcfc310fb47882c3591778a3c869ea34c<\/li><li><strong>Daisuke: <\/strong>8903555ad05ed1794f26240d44137717d0c8049e9133266222c4186a<\/li><li><strong>The Fourth: <\/strong>a4b7f3bbb16b028739efc983967f1e631883f63a2671d508023b5dfb<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "f2ccbeee-6aec-4fa4-8ac5-d2370adc5351": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Disco Solaris",
+            "open": false,
+            "content": "<ul><li><strong>OG: <\/strong>d0112837f8f856b2ca14f69b375bc394e73d146fdadcc993bb993779<\/li><li><strong>Moebius Pioneers: Naked Discos: <\/strong>3dcf9134d9d1bcf3bcad9bdcf0f46d602f5eaa579204d085ab8749e1<\/li><li><strong>Moebius Pioneers: Traits: <\/strong>65a0933d8f25a4e331b3fa59edcd791af392146ef35929b7283bc80a<\/li><li><strong>Moebius Pioneers: Dressed Discos: <\/strong>9874142fc1a8687d0fa4c34140b4c8678e820c91c185cc3c099acb99<\/li><li><strong>Moebius Pioneers: Legends: <\/strong>4fb0eedc819f8b803fc4d78c622faed0b282edb09cad4a82d1413b94<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "a1d62aa6-6a3f-4879-9da8-e7a7c2512fe5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Future Fest",
+            "open": false,
+            "content": "<ul><li><strong>Deluxe Futurebots: <\/strong>b65ce524203b7a7d48b55ff037c847c5ec8c185cd3bdb7abad0a02d4<\/li><li><strong>Futurebots: <\/strong>2b43a53d30347c1983d632e0437e2dec5a5c00ee3007627f1f0b1d30<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "4ea4d24f-6142-4805-885d-49167476b0a3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Pendulum",
+            "open": false,
+            "content": "<ul><li><strong>Order: <\/strong>a616aab3b18eb855b4292246bd58f9e131d7c8c25d1d1d7c88b666c4<\/li><li><strong>Outcasts: <\/strong>ee66460fc89a8cd752b2b9e157f08d68118e46cbdbd6970fb69f704d<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "706adc92-d7eb-4bde-8630-7e7e17db3205": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Pond",
+            "open": false,
+            "content": "<ul><li><strong>Pond-Theta: <\/strong>929b1637798a815baf189ca5039ce4de9523e6b1e788b7ffe36e8644<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "0e6c2c4a-227e-4e79-8629-643cc6707fd9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Vudu Brigada",
+            "open": false,
+            "content": "<ul><li><strong>White Magic: <\/strong>7fdd25a4d6d8d8801034dbe4940248f802f6fb98dea4303f1c51ded0<\/li><li><strong>Black Magic: <\/strong>801e5c53f3e7190dd5b97e6eb91db0fbeb895b041b0627b27954e7b2<\/li><\/ul>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20341966340391__9661c649-846a-41c2-acc1-8773b1bac75a-text-1",
+        "template--20341966340391__9661c649-846a-41c2-acc1-8773b1bac75a-collapsible_tab-1",
+        "template--20341966340391__9661c649-846a-41c2-acc1-8773b1bac75a-collapsible_tab-2",
+        "template--20341966340391__9661c649-846a-41c2-acc1-8773b1bac75a-collapsible_tab-3",
+        "template--20341966340391__9661c649-846a-41c2-acc1-8773b1bac75a-collapsible_tab-4",
+        "5f3921ce-8fa0-4839-94d2-6422fb7a1587",
+        "f2ccbeee-6aec-4fa4-8ac5-d2370adc5351",
+        "a1d62aa6-6a3f-4879-9da8-e7a7c2512fe5",
+        "4ea4d24f-6142-4805-885d-49167476b0a3",
+        "706adc92-d7eb-4bde-8630-7e7e17db3205",
+        "0e6c2c4a-227e-4e79-8629-643cc6707fd9"
+      ],
+      "settings": {
+        "heading": "eligible brands",
+        "description": "",
+        "uppercase_heading": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "166161901464a25e50",
+    "dabb125b-c46f-4e06-87d6-5d5792cf3369",
+    "168d35ad-3ad4-4d23-8dc6-e19e4efe2999",
+    "9661c649-846a-41c2-acc1-8773b1bac75a"
+  ]
+}

@@ -1,0 +1,61 @@
+.post-title {
+    text-align: center;
+}
+
+.brand-description {
+    text-align: center;
+}
+
+.row brand-card.columns {
+    padding: 0 2rem;
+    margin: 1rem 0;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+brand-card img {
+    border-radius: 50%;
+    margin: 2rem 0;
+    padding: 0 2rem;
+}
+
+.brand-name {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.brand-bio {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.brand-links {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.brand-links a {
+    width: 18px;
+    height: 18px;
+    margin: 0 8px 16px 8px;
+}
+
+.brand-links svg {
+    width: 18px;
+    height: 18px;
+}
+
+.brand-links a svg path {
+    fill: var(--color-accent);
+}
+
+.brand-links a:hover path {
+    fill: var(--outline-button-label);
+}
+  
